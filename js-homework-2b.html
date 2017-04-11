@@ -2,17 +2,33 @@
 
 function outcome(homeScore, awayScore) {
   if(homeScore > awayScore) {
-    console.log("The home team won")
+    console.log("The home team won");
   }
   else if(homeScore == awayScore) {
-    console.log("The teams tied")
+    console.log("The teams tied");
   }
   else {
-    console.log("The away team won")
+    console.log("The away team won");
   }
 }
 outcome(12, 5)
 outcome(7, 19)
 outcome(43, 43)
+
+var name = prompt("What is your name?")
+function group(names) {
+  if (name == "Claire") {
+    console.log("Hello, group memeber");
+  }
+  else if (name == "Andrew") {
+    console.log("Hello, teacher");
+  }
+  else {
+    console.log("Hello");
+  }
+}
+group("Claire")
+group("Andrew")
+group("Kathleen")
 
 </script>
