@@ -1,9 +1,21 @@
 <script>
 
-  var name = prompt("What is your name?")
+var name = prompt("What is your name?")
   console.log(name)
 
-  var school = "University of Texas"
+var school = "University of Texas"
   console.log(school.length)
   console.log(school.toLowerCase(school))
+
+function hello(names) {
+  var greeting = "Hello, " + names
+  return greeting;
+}
+var callGreeting1 = hello("Kathleen");
+  console.log(callGreeting1)
+var callGreeting2 = hello("Charles");
+  console.log(callGreeting2)
+var callGreeting3 = hello("Joseph");
+  console.log(callGreeting3)
+
 </script>
